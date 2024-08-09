@@ -1,17 +1,11 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f3f4f6;
     color: #333;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -21,24 +15,19 @@ header {
     color: white;
 }
 
-header .logo img {
-    height: 40px;
-    margin-right: 10px;
-}
-
-header .logo h1 {
-    display: inline;
+.logo h1 {
+    margin-left: 10px;
     font-size: 24px;
-    font-weight: bold;
+    display: inline;
 }
 
-header nav a {
+nav a {
     margin-left: 20px;
     color: white;
     text-decoration: none;
 }
 
-header .get-started {
+.get-started {
     background-color: white;
     color: #6933ff;
     padding: 10px 20px;
@@ -46,22 +35,20 @@ header .get-started {
     text-decoration: none;
 }
 
-/* Hero Section */
 .hero {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 50px;
     background-color: #6933ff;
     color: white;
 }
 
-.hero .hero-content {
+.hero-content {
     max-width: 50%;
 }
 
 .hero h2 {
-    font-size: 36px;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
@@ -70,11 +57,11 @@ header .get-started {
     margin-bottom: 30px;
 }
 
-.hero .cta-buttons {
+.cta-buttons {
     display: flex;
 }
 
-.hero .cta-buttons .cta-button {
+.cta-button {
     background-color: #34c759;
     color: white;
     padding: 15px 30px;
@@ -88,10 +75,16 @@ header .get-started {
     border-radius: 10px;
 }
 
-/* Brands Section */
 .brands {
     padding: 50px;
     text-align: center;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 footer {
